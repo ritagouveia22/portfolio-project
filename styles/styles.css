@@ -25,14 +25,19 @@ p {
   line-height: 1.7;
 }
 
-.hero {
+.hero-home {
   height: 100vh;
   text-align: center;
   padding: 100px 0;
   background-color: var(--secondary-color);
 }
 
-.hero h2 {
+.hero-about {
+  padding: 20px;
+}
+
+.hero-home h2,
+.hero-about h2 {
   color: var(--primary-color);
   font-weight: 300;
   text-transform: uppercase;
@@ -40,13 +45,14 @@ p {
   padding: 15px 0;
 }
 
-.hero p {
+.hero-home p,
+.hero-about p {
   color: var(--primary-color);
   font-weight: 300;
   margin: 0px;
 }
 
-.hero a {
+.hero-home a {
   color: var(--primary-color);
 }
 
@@ -72,6 +78,10 @@ p {
 
 @media (max-width: 767px) {
   .project-description {
+    text-align: center;
+  }
+
+  .hero-about {
     text-align: center;
   }
 }
