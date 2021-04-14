@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #886ce4;
-  --secondary-color: #ddd3ff;
+  --primary-color: #bdc7cc;
+  --secondary-color: #132c33;
   --text-color: #444251;
 }
 
@@ -26,8 +26,9 @@ p {
 }
 
 .hero {
+  height: 100vh;
   text-align: center;
-  padding: 60px 0;
+  padding: 100px 0;
   background-color: var(--secondary-color);
 }
 
@@ -43,6 +44,10 @@ p {
   color: var(--primary-color);
   font-weight: 300;
   margin: 0px;
+}
+
+.hero a {
+  color: var(--primary-color);
 }
 
 .btn-branding {
@@ -65,11 +70,7 @@ p {
   text-decoration-color: var(--secondary-color);
 }
 
-@media (max-width: 576px) {
-  .hero {
-    padding: 20px 0 40px;
-  }
-
+@media (max-width: 767px) {
   .project-description {
     text-align: center;
   }
