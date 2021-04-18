@@ -31,7 +31,8 @@ p {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 10px 0;
+  background-color: var(--secondary-color);
 }
 
 nav ul {
@@ -42,13 +43,12 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 60px;
+  line-height: 40px;
   margin-left: 12px;
 }
 
 nav a {
-  color: var(--text-color);
-  transition: all 120ms ease-in-out;
+  color: #f5f5f5;
 }
 
 nav li.active a {
@@ -58,10 +58,11 @@ nav li.active a {
 nav a:hover {
   text-decoration: none;
   color: var(--primary-color);
+  transition: all 120ms ease-in-out;
 }
 
 .logo {
-  max-height: 60px;
+  max-height: 40px;
 }
 
 .hero-home {
@@ -116,21 +117,30 @@ nav a:hover {
 }
 
 .contact-container {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 4px;
   max-width: 800px;
   margin: 0 auto;
 }
 
+.social-container {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  margin: 0 40px;
+}
+
 .fa-envelope,
-.fa-linkedin {
+.fa-linkedin,
+.fa-github {
   font-size: 42px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .fa-envelope:hover,
-.fa-linkedin:hover {
+.fa-linkedin:hover,
+.fa-github:hover {
   color: #f5f5f5;
+  transition: all 120ms ease-in-out;
 }
 
 @media (max-width: 767px) {
