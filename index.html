@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rita is junior front-end developer, based in Lisbon, Portugal. She's looking for a new professional challenge, so that she can put all her new skills in practice.">
 
     <link
       rel="stylesheet"
@@ -38,25 +39,25 @@
   <body>
       <nav>
         <div class="container d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" alt="Logo">
-          <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="Logo">
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" class="logo d-none d-md-block" alt="Rita's Logo">
+          <img src="/images/logo-small.png" class="logo d-block d-md-none" alt="Rita's Logo">
         </a>
           <ul>
             <li class="active">
-              <a href="/">
+              <a href="/" title="Homepage">
             Home</a>
             </li>
             <li>
-              <a href="/about.html">
+              <a href="/about.html" title="About Rita page">
             About Me</a>
             </li>
             <li>
-              <a href="/work.html">
+              <a href="/work.html" title="Rita's work page">
             Projects</a>
             </li>
             <li>
-              <a href="/contact.html">
+              <a href="/contact.html" title="Contact Rita page">
             Contact</a>
             </li>
           </ul>
@@ -66,7 +67,9 @@
       <p>Hi, I'm</p>
       <h1>RITA GOUVEIA</h1>
       <h2>Front-end developer to be,</br>based in Lisbon</h2>
-      <button class="btn btn-branding mt-5" href="#">Contact me</button>
+      <button class="btn btn-branding mt-5">
+        <a href="/contact.html" title="Contact Rita">
+        Contact me</a></button>
       <a class="m-5 text-center d-block" href="#projects"><i class="fas fa-arrow-down mr-2"></i>Check out my projects<i class="fas fa-arrow-down ml-2"></i></a>
     </div>
     <div class="container" id="projects">
@@ -77,14 +80,14 @@
         <div class="col-md-8 my-auto project-description">
           <h2 class="mb-4">My first Website</h2>
           <p class="mb-2">This was my ever first project into the coding world. Its a single page website about campervanning and was built with HTML, CSS and a little bit of JS.</p>
-          <a href="#" class="btn-project text-muted">Check out this project <i class="fas fa-arrow-right"></i></a>
+          <a href="/work.html" class="btn-project text-muted">Check out this project <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
       <div class="row m-5">
         <div class="col-md-8 my-auto project-description">
           <h2 class="mb-4">My first Weather App</h2>
           <p class="mb-2">In this project I built a weather app, with a live API integration and some more advanced HTML, CSS and JS than the previous project.</p>
-          <a href="#" class="btn-project text-muted">Check out this project <i class="fas fa-arrow-right"></i></a>
+          <a href="/work.html" class="btn-project text-muted">Check out this project <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="col-md-4 d-none d-md-block">
           <img src="/images/weather app.png" alt="My First Weather App" class="img-fluid rounded">
@@ -97,20 +100,20 @@
         <div class="col-md-8 my-auto project-description">
           <h2 class="mb-4">My React Weather App</h2>
           <p class="mb-2">This was the most challenging project I've work on SheCodes. I've built the same previous weather app, but this time using one of the most in-demand coding frameworks today - React.</p>
-          <a href="#" class="btn-project text-muted">Check out this project <i class="fas fa-arrow-right"></i></a>
+          <a href="/work.html" class="btn-project text-muted">Check out this project <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
       <footer class="mt-5 mb-5">
         <div class="row social-container p-3 justify-content-center">
         <div class="col-sm-4 text-center mt-3 mb-3">
-          <a href="mailto:ritamrgouveia@gmail.com">
+          <a href="mailto:ritamrgouveia@gmail.com" title="Email Rita">
             <i class="far fa-envelope"></i
           ></a>
         </div>
         <div class="col-sm-4 text-center mt-3 mb-3">
           <a
             href="http://www.linkedin.com/in/rita-gouveia-0ab09a14a"
-            target="_blank"
+            target="_blank" title="Rita's LinkedIn Profile"
           >
             <i class="fab fa-linkedin"></i
           ></a>
@@ -118,11 +121,12 @@
         <div class="col-sm-4 text-center mt-3 mb-3">
           <a
             href="https://github.com/ritagouveia22"
-            target="_blank"
+            target="_blank" title="Rita's GitHub Profile"
           >
             <i class="fab fa-github"></i></a>
         </div>
       </div>
+      <p class="text-center m-5">😎 This project was coded by Rita and is <a href="https://github.com/ritagouveia22/portfolio-project" target="_blank" title="GitHub repository">open-sourced on GitHub</a> and hosted on <a href="https://www.netlify.com/" target="_blank" title="Netlify website">Netlify</a>.</p>
       </footer>
     </div>
   </body>
